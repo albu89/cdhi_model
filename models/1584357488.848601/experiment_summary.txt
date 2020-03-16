@@ -1,7 +1,0 @@
-Dataset: 1584182554.771545
-Model name: Conv Model M5
-Epochs: 1
-Batch size: 64
-Learning rate: 1e-06
-Train Performance: 0.41761767864227295
-Test Performance: 0.3817663788795471
