@@ -26,16 +26,15 @@ Project Organization
     │                         generated with `pip freeze > requirements.txt`
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── a_create_deata.py    <- Scripts to prepare data for modelling
-    │   │   
-    │   │
-    │   ├── b_train_model.py     <- Scripts to run experiment and save results
-    │   │   └── build_features.py
-    │   │
-
+    └── src                <- Source code for use in this project.
+        ├── __init__.py    <- Makes src a Python module
+        │
+        ├── a_create_deata.py    <- Scripts to prepare data for modelling
+        │   
+        │
+        └── b_train_model.py     <- Scripts to run experiment and save results
+               
+         
 
 ### Building
 
@@ -99,31 +98,21 @@ Install the dependencies listed in the requirements.txt file at the root folder 
 pip install -r requirements.txt
 ```
 
-If you find you need to install another package
-
-```
-pip freeze > requirements.txt
-```
-
-and commit the changes to version control.
-
 
 ### Creating a model
 
 A step by step series of examples that tell you how to create a model.
 
-+ Select the features in the `a_prepare_data_config.json` file that you want to have processed. An overview of all features can be found in the raw_data folder
-+ Execute the crate data script
++ Execute the crate data script in the home folder cdhi_model
 
 ```
-python a_create_data.py
+python -m src.a_create_data
 ```
 
-+ Specify the model parameters in the `b_FF_model_config.json` file along with the processed dataset to be used in the data_set folder
-+ Define the evaluation metrics you want to use in the `c_evaluation_config.json` file
-+ Execute the run model script 
++ When running the below script it will choose the most recently created dataset
+
 
 ```
-python b_run_model.py
+python -m src.b_train_model
 ```
 + Investigate the results in the model folder
