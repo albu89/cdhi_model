@@ -1,0 +1,7 @@
+Dataset: 1584182554.771545
+Model name: conv_mode_optimized
+Epochs: 40
+Batch size: 64
+Learning rate: 1e-06
+Train Performance: 0.41761768]
+Test Performance: 0.3803419]
