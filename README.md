@@ -1,7 +1,7 @@
 cdhi_model
 ==============================
 
-To meet the objective of building a android deployable speech classifier that can distinguish speaking, from singing and silence a convolutional net on the raw audio signal was trained inspired by the work of **[Wei Dai. et al.](https://drive.google.com/file/d/1G040rNPvGnjRTqXe1Tc6GFooibk2u7v7/view?usp=sharing)** More information on the model and the results can be found **[here.](https://github.com/albu89/cdhi_model/blob/master/docs/CDHI%20Challenge%20V1.0.pdf)**
+To meet the objective of building a android deployable speech classifier that can distinguish speaking, from singing and silence a convolutional net on the raw audio signal was trained inspired by the work of **[Wei Dai. et al.](https://drive.google.com/file/d/1G040rNPvGnjRTqXe1Tc6GFooibk2u7v7/view?usp=sharing)** More information on the model and the results can be found **[here.](https://github.com/albu89/cdhi_model/blob/master/docs/CDHI%20Challenge%20V1.0.pdf)** The model found in the folder models is deployed in the Android application found in the following **[project](https://github.com/albu89/cdhi_deployment/blob/master/README.md)**
 
 
 Project Organization
