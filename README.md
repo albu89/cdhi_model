@@ -72,10 +72,6 @@ source ~/.bash_profile
 ```
 mkvirtualenv env1
 ``` 
-If this fails, try:
-```
-mkvirtualenv env1
-``` 
 
 #### Sidenote: Using virtualenvwrapper
 You can use the following commands to list, activate and deactivate existing environments.
