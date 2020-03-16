@@ -36,7 +36,8 @@ Project Organization
                
          
 
-### Building
+Project Organization
+------------
 
 ### Prerequisites
 
