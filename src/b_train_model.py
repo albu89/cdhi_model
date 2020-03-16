@@ -89,7 +89,7 @@ def main():
     dataset = "1584182554.771545"
     num_classes = 3
     batch_size = 64
-    epochs = 1
+    epochs = 40
     learning_rate = 0.000001
     model_name = "Conv Model M5"
 
