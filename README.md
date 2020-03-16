@@ -1,7 +1,7 @@
 cdhi_model
 ==============================
 
-To meet the objective of building a android deployable speech classifier that can distinguish speaking, from singing and silence a convolutional net on the raw audio signal was trained inspired by the work of **[Wei Dai. et al.](https://drive.google.com/file/d/1G040rNPvGnjRTqXe1Tc6GFooibk2u7v7/view?usp=sharing)**. More information on the model and the results can be found **[here.](https://github.com/albu89/cdhi_model/blob/master/docs/CDHI%20Challenge%20V1.0.pdf)**
+To meet the objective of building a android deployable speech classifier that can distinguish speaking, from singing and silence a convolutional net on the raw audio signal was trained inspired by the work of **[Wei Dai. et al.](https://drive.google.com/file/d/1G040rNPvGnjRTqXe1Tc6GFooibk2u7v7/view?usp=sharing)** More information on the model and the results can be found **[here.](https://github.com/albu89/cdhi_model/blob/master/docs/CDHI%20Challenge%20V1.0.pdf)**
 
 
 Project Organization
@@ -102,6 +102,8 @@ pip install -r requirements.txt
 ### Creating a model
 
 A step by step series of examples that tell you how to create a model.
+
++ Download the raw data from the following **[link](https://drive.google.com/open?id=1r1VZIcs915LIAbzHh-nsgegdnyDaJdvr)** and unzip its content into the folder data/raw
 
 + Execute the crate data script in the home folder cdhi_model
 
