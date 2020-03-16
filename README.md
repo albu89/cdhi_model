@@ -70,7 +70,7 @@ source ~/.bash_profile
 
 #### Create virtual environment
 ```
-mkvirtualenv -p python364 env1
+mkvirtualenv env1
 ``` 
 If this fails, try:
 ```
